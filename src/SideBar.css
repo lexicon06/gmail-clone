@@ -1,0 +1,116 @@
+.sidebar {
+  flex: 0.15;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8fc;
+  height: 100vh;
+  padding-right: 20px;
+}
+
+.sidebar__compose {
+  background-color: #c2e7ff;
+  padding: 14px 13px;
+  margin: 10px;
+  width: 140px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-evenly;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.sidebar__mail-navigation {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.sidebar__compose_icon {
+  color: black;
+}
+
+.sidebar__compose > p {
+  color: #001d35;
+  font-weight: 600;
+}
+
+.sidebar__compose:hover {
+  -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.rotate {
+  rotate: 60deg;
+}
+
+.App__body {
+  display: flex;
+  flex-direction: row no-wrap;
+}
+
+.sidebar__button:nth-of-type(2) {
+  color: #202020;
+  border-end-end-radius: 20px;
+  border-start-end-radius: 20px;
+  justify-content: center;
+  display: flex;
+  gap: 12px;
+  height: 38px;
+  font-weight: 600;
+}
+
+.sidebar__button {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  gap: 12px;
+  padding: 3px 25px;
+  cursor: pointer;
+  color: #444746;
+  height: 38px;
+}
+
+.sidebar__button:hover {
+  background-color: #eaebef;
+  border-end-end-radius: 20px;
+  border-start-end-radius: 20px;
+}
+
+.sidebar__button:nth-of-type(2) {
+  color: #202020;
+  background-color: #d3e3fd;
+  border-end-end-radius: 20px;
+  border-start-end-radius: 20px;
+  justify-content: center;
+  display: flex;
+  gap: 12px;
+  padding: 3px 25px;
+  font-size: 14px;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  color: #001d35;
+}
+
+/* 
+.sidebar__button:nth-of-type(2):hover {
+ already set
+}
+ */
+
+.sidebar__button:nth-of-type(2) > p {
+  margin-left: auto;
+}
+
+.sidebar__labels {
+  color: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+  font-weight: 600;
+}
